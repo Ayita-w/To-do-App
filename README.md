@@ -25,5 +25,13 @@ This is a simple full-stack **Todo application** built using **Flask** (Python w
 - SQLite (as the database)
 
 ---
-## Run the Application
+
+python -m venv env
+# Activate on Windows:
+env\Scripts\activate
+# Activate on macOS/Linux:
+source env/bin/activate
+---
+pip install -r requirements.txt
+---
 python app.py
